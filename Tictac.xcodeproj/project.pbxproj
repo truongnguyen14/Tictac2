@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B136EC52A9861C100FECCD9 /* Map1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136EC42A9861C100FECCD9 /* Map1.swift */; };
+		7B136EC72A9872D100FECCD9 /* Map2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136EC62A9872D100FECCD9 /* Map2.swift */; };
+		7B136EC92A9885BF00FECCD9 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136EC82A9885BF00FECCD9 /* Sound.swift */; };
+		7B136ECC2A9885D600FECCD9 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B136ECA2A9885D600FECCD9 /* gameover.mp3 */; };
+		7B136ECD2A9885D600FECCD9 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B136ECB2A9885D600FECCD9 /* winning.mp3 */; };
+		7B136ECF2A9886A600FECCD9 /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B136ECE2A9886A600FECCD9 /* XOButton.swift */; };
 		7B376C392A95D3C400722D1C /* TictacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B376C382A95D3C400722D1C /* TictacApp.swift */; };
 		7B376C3B2A95D3C400722D1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B376C3A2A95D3C400722D1C /* ContentView.swift */; };
 		7B376C3D2A95D3C500722D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B376C3C2A95D3C500722D1C /* Assets.xcassets */; };
 		7B376C402A95D3C500722D1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B376C3F2A95D3C500722D1C /* Preview Assets.xcassets */; };
+		7BA1EAEE2A9C98B500CACF2F /* Howtoplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1EAED2A9C98B500CACF2F /* Howtoplay.swift */; };
+		7BA1EAF02A9C9A0900CACF2F /* Menubackgroundcolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1EAEF2A9C9A0900CACF2F /* Menubackgroundcolor.swift */; };
+		7BA1EAF22A9C9AE900CACF2F /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1EAF12A9C9AE900CACF2F /* Setting.swift */; };
+		7BA1EAF42A9C9C9700CACF2F /* Informationview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1EAF32A9C9C9700CACF2F /* Informationview.swift */; };
+		7BB968622A99DB020008CFBB /* Homeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB968612A99DB020008CFBB /* Homeview.swift */; };
+		7BB968642A99ED780008CFBB /* Backgroundmusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB968632A99ED780008CFBB /* Backgroundmusic.swift */; };
+		7BB968672A99EF450008CFBB /* modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB968662A99EF450008CFBB /* modifier.swift */; };
+		7BB9686A2A9A0D200008CFBB /* Backgroundcolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB968692A9A0D200008CFBB /* Backgroundcolor.swift */; };
+		7BB9686D2A9A0E6F0008CFBB /* Colorconstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9686C2A9A0E6E0008CFBB /* Colorconstant.swift */; };
+		7BB9686F2A9A13930008CFBB /* highscore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9686E2A9A13930008CFBB /* highscore.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B136EC42A9861C100FECCD9 /* Map1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map1.swift; sourceTree = "<group>"; };
+		7B136EC62A9872D100FECCD9 /* Map2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map2.swift; sourceTree = "<group>"; };
+		7B136EC82A9885BF00FECCD9 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		7B136ECA2A9885D600FECCD9 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		7B136ECB2A9885D600FECCD9 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		7B136ECE2A9886A600FECCD9 /* XOButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
 		7B376C352A95D3C400722D1C /* Tictac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tictac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B376C382A95D3C400722D1C /* TictacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TictacApp.swift; sourceTree = "<group>"; };
 		7B376C3A2A95D3C400722D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B376C3C2A95D3C500722D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B376C3F2A95D3C500722D1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BA1EAED2A9C98B500CACF2F /* Howtoplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Howtoplay.swift; sourceTree = "<group>"; };
+		7BA1EAEF2A9C9A0900CACF2F /* Menubackgroundcolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menubackgroundcolor.swift; sourceTree = "<group>"; };
+		7BA1EAF12A9C9AE900CACF2F /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		7BA1EAF32A9C9C9700CACF2F /* Informationview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Informationview.swift; sourceTree = "<group>"; };
+		7BB968612A99DB020008CFBB /* Homeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeview.swift; sourceTree = "<group>"; };
+		7BB968632A99ED780008CFBB /* Backgroundmusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backgroundmusic.swift; sourceTree = "<group>"; };
+		7BB968662A99EF450008CFBB /* modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modifier.swift; sourceTree = "<group>"; };
+		7BB968692A9A0D200008CFBB /* Backgroundcolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backgroundcolor.swift; sourceTree = "<group>"; };
+		7BB9686C2A9A0E6E0008CFBB /* Colorconstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorconstant.swift; sourceTree = "<group>"; };
+		7BB9686E2A9A13930008CFBB /* highscore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = highscore.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				7B376C382A95D3C400722D1C /* TictacApp.swift */,
+				7BB968682A9A0C720008CFBB /* Backgroundcolor */,
 				7B376C3A2A95D3C400722D1C /* ContentView.swift */,
+				7BB9685C2A99DA730008CFBB /* Hoempageview */,
+				7BB9685D2A99DA8C0008CFBB /* Map */,
+				7BB968652A99EF200008CFBB /* Modifier */,
+				7BB968602A99DAD60008CFBB /* Utils */,
 				7B376C3C2A95D3C500722D1C /* Assets.xcassets */,
 				7B376C3E2A95D3C500722D1C /* Preview Content */,
 			);
@@ -65,6 +102,57 @@
 				7B376C3F2A95D3C500722D1C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BB9685C2A99DA730008CFBB /* Hoempageview */ = {
+			isa = PBXGroup;
+			children = (
+				7BB968612A99DB020008CFBB /* Homeview.swift */,
+				7BA1EAED2A9C98B500CACF2F /* Howtoplay.swift */,
+				7BA1EAF12A9C9AE900CACF2F /* Setting.swift */,
+				7BA1EAF32A9C9C9700CACF2F /* Informationview.swift */,
+			);
+			path = Hoempageview;
+			sourceTree = "<group>";
+		};
+		7BB9685D2A99DA8C0008CFBB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7B136EC42A9861C100FECCD9 /* Map1.swift */,
+				7B136EC62A9872D100FECCD9 /* Map2.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		7BB968602A99DAD60008CFBB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7B136ECE2A9886A600FECCD9 /* XOButton.swift */,
+				7B136EC82A9885BF00FECCD9 /* Sound.swift */,
+				7BB968632A99ED780008CFBB /* Backgroundmusic.swift */,
+				7B136ECA2A9885D600FECCD9 /* gameover.mp3 */,
+				7B136ECB2A9885D600FECCD9 /* winning.mp3 */,
+				7BB9686E2A9A13930008CFBB /* highscore.mp3 */,
+				7BB9686C2A9A0E6E0008CFBB /* Colorconstant.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7BB968652A99EF200008CFBB /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				7BB968662A99EF450008CFBB /* modifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		7BB968682A9A0C720008CFBB /* Backgroundcolor */ = {
+			isa = PBXGroup;
+			children = (
+				7BB968692A9A0D200008CFBB /* Backgroundcolor.swift */,
+				7BA1EAEF2A9C9A0900CACF2F /* Menubackgroundcolor.swift */,
+			);
+			path = Backgroundcolor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +215,9 @@
 			files = (
 				7B376C402A95D3C500722D1C /* Preview Assets.xcassets in Resources */,
 				7B376C3D2A95D3C500722D1C /* Assets.xcassets in Resources */,
+				7BB9686F2A9A13930008CFBB /* highscore.mp3 in Resources */,
+				7B136ECC2A9885D600FECCD9 /* gameover.mp3 in Resources */,
+				7B136ECD2A9885D600FECCD9 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +228,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B136EC92A9885BF00FECCD9 /* Sound.swift in Sources */,
+				7BA1EAEE2A9C98B500CACF2F /* Howtoplay.swift in Sources */,
+				7BB968642A99ED780008CFBB /* Backgroundmusic.swift in Sources */,
 				7B376C3B2A95D3C400722D1C /* ContentView.swift in Sources */,
+				7BA1EAF22A9C9AE900CACF2F /* Setting.swift in Sources */,
+				7BA1EAF02A9C9A0900CACF2F /* Menubackgroundcolor.swift in Sources */,
+				7BB968622A99DB020008CFBB /* Homeview.swift in Sources */,
+				7BA1EAF42A9C9C9700CACF2F /* Informationview.swift in Sources */,
+				7B136ECF2A9886A600FECCD9 /* XOButton.swift in Sources */,
+				7B136EC72A9872D100FECCD9 /* Map2.swift in Sources */,
+				7BB968672A99EF450008CFBB /* modifier.swift in Sources */,
+				7BB9686D2A9A0E6F0008CFBB /* Colorconstant.swift in Sources */,
+				7BB9686A2A9A0D200008CFBB /* Backgroundcolor.swift in Sources */,
 				7B376C392A95D3C400722D1C /* TictacApp.swift in Sources */,
+				7B136EC52A9861C100FECCD9 /* Map1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
